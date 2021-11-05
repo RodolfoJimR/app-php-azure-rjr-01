@@ -1,6 +1,6 @@
 <?php
 $port = 1433;
-$serverName = "tcp:YOUR_SQL_AZURE_URL," . $port;
+$serverName = "miservidor01.database.windows.net" . $port;
 $database = "mySQLDataBase";
 $userName = "student-azure";
 $password = "myServerSQL#";
