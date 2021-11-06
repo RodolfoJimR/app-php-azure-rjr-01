@@ -1,9 +1,9 @@
 <?php
 $port = 1433;
 $serverName = "miservidor01.database.windows.net" . $port;
-$database = "mySQLDataBase";
-$userName = "student-azure";
-$password = "myServerSQL#";
+$database = "AdventureWorks";
+$userName = "Student";
+$password = "Pa55w.rd";
 
 try {
     $conn = new PDO("sqlsrv:server = $serverName,$port; Database = $database", $userName, $password);
