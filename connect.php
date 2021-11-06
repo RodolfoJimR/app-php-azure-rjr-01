@@ -1,6 +1,6 @@
 <?php
 $port = 1433;
-$serverName = "miservidor01.database.windows.net" . $port;
+$serverName = "miservidor01.database.windows.net," . $port;
 $database = "AdventureWorks";
 $userName = "Student";
 $password = "Pa55w.rd";
